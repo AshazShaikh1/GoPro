@@ -1,0 +1,40 @@
+.hey::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor; /* Inherit link color */
+  opacity: 0;
+  transform: translateY(0.1rem); /* Adjust underline position */
+  transition: all 0.3s ease-in-out;
+}
+
+.hey:hover::after {
+  opacity: 1;
+  transform: translateY(0); /* Move underline to bottom on hover */
+}
+
+.heuy {
+  width: 100%;
+  height: 100vh;
+  background: url(Img/back1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hee2 {
+  width: 100%;
+  height: 40vh;
+  background: url(Img/back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  object-position: top;
+  object-fit: top;
+}
+
+.hud{
+  background-color: rgb(50, 121, 193);
+}
